@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Login Page</title>
+    
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/datatable/css/datatables.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/1.13.4/css/dataTables.bootstrap5.min.css"
+    />
+    <link rel="stylesheet" href="./assets/fontawsome/css/all.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <body>
+    <nav class="nav d-flex justify-content-between align-items-center">
+      <div class="d-flex">
+        <a
+          href=""
+          title="map"
+          class="bg-primary d-flex text-decoration-none justify-content-center align-items-center"
+          style="width: 50px; height: 40px"
+        >
+          <i
+            class="fa-solid fa-earth-americas"
+            style="color: white; font-size: 16px"
+          ></i>
+        </a>
+        <a 
+          href=""
+          title="user list"
+          class="  d-flex text-decoration-none justify-content-evenly align-items-center"
+          style="width: 60px; height: 40px; color: #6f6f6f"
+        >
+          <i class="fa-solid fa-user" style="font-size: 16px"></i>
+         
+      </a> 
+        <a
+          href=""
+          title="object list"
+          class="d-flex text-decoration-none justify-content-evenly align-items-center"
+          style="width: 150px; height: 40px; color: #6f6f6f"
+        >
+          <i class="fa-solid fa-location-pin" style="font-size: 16px"></i>
+          (997/100/100)
+        </a>
+      </div>
+      <h6 style="overflow-y: hidden">CONTROL PANNEL (USERS LIST)</h6>
+      <div class="d-flex">
+        <select
+          name="language"
+          title="select language"
+          id=""
+          style="border: none; outline: none"
+        >
+          <option value="">English</option>
+          <option value="">Spanish</option>
+          <option value="">Arabic</option>
+          <option value="">Turkish</option>
+        </select>
+        <a
+          href=""
+          title="my account"
+          class="d-flex text-decoration-none justify-content-evenly align-items-center"
+          style="height: 40px; color: #6f6f6f; padding: 0px 10px"
+        >
+          <i
+            class="fa-solid fa-user"
+            style="font-size: 16px; margin-right: 10px"
+          ></i>
+          zee track
+        </a>
+        <a
+          href=""
+          title="logout"
+          class="d-flex text-decoration-none justify-content-center align-items-center"
+          style="width: 50px; height: 40px; background-color: #6c6c6c"
+        >
+          <i
+            class="fa-solid fa-right-from-bracket"
+            style="font-size: 16px; color: white"
+          ></i>
+        </a>
+      </div>
+    </nav>
+    <form class="example">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+      <button  class="src" data-toggle="modal" data-target="#exampleModal">
+        <i class="fa-solid fa-location-arrow" style="background-color: grey;"></i>
+      </button>
+      
+      
+    </form>
+     
+      
+    </div>
+    
+    <div class="table-wrapper">
+      <div class="row d-flex justify-content-center align-items-center mt-4">
+        <div class="col-11">
+          <table
+            id="table-cpannel"
+            class="table table-striped table-responsive w-100"
+          >
+            <thead class="th">
+              <tr>
+                <th>ID</th>
+                <th>Username</th>
+                <th>E-mail</th>
+                <th>Active</th>
+                <th>Expires on</th>
+                <th>Privileges</th>
+                <th>API</th>
+                <th>Reg.time</th>
+                <th>Login time</th>
+                <th>IP</th>
+                <th>Sub acc.</th>
+                <th>Objects</th>
+                <th>E-mail</th>
+                <th>SMS</th>
+                <th>Webhook</th>
+                <th>API</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              
+             
+            </tbody>
+          </table>
+          <nav aria-label="Page navigation example" >
+            <ul class="pagination  " style="margin-top: 400px; ">
+              <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1">Previous</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+              </li>
+            </ul>
+          </nav>
+
+         
+           
+          
+          
+        </div>
+      </div>
+    </div>
+    <div
+      class="rounded-circle bg-primary d-flex justify-content-center align-items-center position-absolute circle-bottom-custom"
+    >
+      <i class="fa-solid fa-plus icon-plus" style="color: white; font-size: 26px"></i>
+    </div>
+  
+    
+  </div>
+  
+    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./assets/jquery/jquery.js"></script>
+    <script src="./assets/datatable/js/datatables.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+    
+   
+</html>

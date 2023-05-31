@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+:root {
+    --color-background: #efecec88;
+    --box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    --color-primary: #0d6efd;
+}
+.tab{
+    margin-top: 30px;
+}
+.th{
+    background-color: ghostwhite;
+    height: 50px;
+    font-size: 12px;
+}
+
+
+td {
+    margin-top: 10px;
+    font-size: 10px;
+    
+}
+
+input,
+select,
+button {
+    outline: none;
+}
+
+input:focus {
+    box-shadow: none !important;
+}
+
+body,
+.container-fluid {
+    background-color: var(--color-background);
+}
+
+.login-box-wrapper {
+    background-color: white;
+    border-radius: 6px;
+    width: 380px;
+    padding: 10px;
+    box-shadow: var(--box-shadow);
+}
+
+.nav {
+    background-color: white;
+    box-shadow: var(--box-shadow);
+    height: 40px;
+    width: 100%;
+}
+
+.table-wrapper {
+    width: 95%;
+    /* border-top: 3px solid var(--color-primary); */
+    margin: 20px auto;
+    height: 90vh;
+    background-color: white;
+    box-shadow: var(--box-shadow);
+}
+
+.datatable_filter {
+    outline: none;
+    border: none;
+    background: white;
+}
+
+.circle-bottom-custom {
+    bottom: 30px;
+    right: 30px;
+    height: 50px;
+    width: 50px;
+    z-index: 1;
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+}
+
+  
+  /* Style the search field */
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    float: right;
+    width: 300px;
+    background: #f1f1f1;
+    margin-top: 0px;
+  }
+
+  
+  /* Style the submit button */
+  form.example button {
+    float: right;
+    width: 50px;
+    padding: 10px; 
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    border:none;
+
+   
+  }
+  .hnav{
+    margin-top: 0%;
+  }
+  
+  
+  
+  /* Clear floats */
+ 
+  .src{
+        float: right;
+        width: 50px;
+        padding: 10px;
+        background:grey;
+        color: white;
+        font-size: 17px;
+        border: 1px solid grey;
+        border-left: none; /* Prevent double borders */
+         cursor: pointer;
+        margin-right: 5px;; 
+      }
+      .tbody{
+        margin-top: 5px;
+        font-size: 10px;
+      }
+  

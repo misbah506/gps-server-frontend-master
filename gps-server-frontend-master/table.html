@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Login Page</title>
+    
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/datatable/css/datatables.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/1.13.4/css/dataTables.bootstrap5.min.css"
+    />
+    <link rel="stylesheet" href="./assets/fontawsome/css/all.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <body>
+    <nav class="nav d-flex justify-content-between align-items-center">
+      <div class="d-flex">
+        <a
+          href=""
+          title="map"
+          class="bg-primary d-flex text-decoration-none justify-content-center align-items-center"
+          style="width: 50px; height: 40px"
+        >
+          <i
+            class="fa-solid fa-earth-americas"
+            style="color: white; font-size: 16px"
+          ></i>
+        </a>
+        <a 
+          href=""
+          title="user list"
+          class="  d-flex text-decoration-none justify-content-evenly align-items-center"
+          style="width: 60px; height: 40px; color: #6f6f6f"
+        >
+          <i class="fa-solid fa-user" style="font-size: 16px"></i>
+         
+      </a> 
+        <a
+          href=""
+          title="object list"
+          class="d-flex text-decoration-none justify-content-evenly align-items-center"
+          style="width: 150px; height: 40px; color: #6f6f6f"
+        >
+          <i class="fa-solid fa-location-pin" style="font-size: 16px"></i>
+          (997/100/100)
+        </a>
+      </div>
+      
+      <div class="d-flex">
+        <select
+          name="language"
+          title="select language"
+          id=""
+          style="border: none; outline: none"
+        >
+          <option value="">English</option>
+          <option value="">Spanish</option>
+          <option value="">Arabic</option>
+          <option value="">Turkish</option>
+        </select>
+        <a
+          href=""
+          title="my account"
+          class="d-flex text-decoration-none justify-content-evenly align-items-center"
+          style="height: 40px; color: #6f6f6f; padding: 0px 10px"
+        >
+          <i
+            class="fa-solid fa-user"
+            style="font-size: 16px; margin-right: 10px"
+          ></i>
+          zee track
+        </a>
+        <a
+          href=""
+          title="logout"
+          class="d-flex text-decoration-none justify-content-center align-items-center"
+          style="width: 50px; height: 40px; background-color: #6c6c6c"
+        >
+          <i
+            class="fa-solid fa-right-from-bracket"
+            style="font-size: 16px; color: white"
+          ></i>
+        </a>
+      </div>
+    </nav>
+    <div class="d-flex" style="float: right; margin-right: 30px;" >
+      
+      
+    </div>
+    
+      
+    </div>
+    
+    <div class="table-wrapper">
+      <div class="row d-flex justify-content-center align-items-center mt-4">
+       
+        <div class="col-11">
+          <div class="hnav">
+            <p style="font-size: 25px; padding-top: 20px;"><strong style="color: blue;">Control panel </strong></panel>-Object List</p>
+            
+            <form class="example" >
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+                
+              </form>
+            </div>
+        
+              <div class=" tab row">
+          <table
+            id="table-cpannel"
+            class="table  table-responsive w-100"
+          >
+            <thead class="th">
+              <tr>
+                <th></th>
+                <th><input type="checkbox"/></th>
+                <th>Name</th>
+                <th>IMEI</th>
+                <th>Active</th>
+                <th>Expires On</th>
+                <th>GPS device</th>
+                <th>SIM card number</th>
+                <th>Last connection</th>
+                <th>Protocol</th>
+                <th>Net.protocol</th>
+                <th>port</th>
+                <th>status</th>
+                <th>User Account</th>
+                <th></th>
+                
+              </tr>
+            </thead>
+            <tbody>
+                <tr class="tbody" style="margin-top: 10px; font-size: 10px;">
+                    <th>1</th>
+                    <th><input type="checkbox"/></th>
+                    <th>ID-1265-LEH-9789</th>
+                    <th>350424064680141</th>
+                    <th><i class="fa-solid fa-check" style="color: #59ab07;"></i></th>
+                    <th>2023-12-16</th>
+                    <th></th>
+                    <th>+923331167323</th>
+                    <th>0000-00-00 00:00:00</th>
+                    <th>teltonikam</th>
+                    <th>TCP</th>
+                    <th>11919</th>
+                    <th>status</th>
+                    <th><a href="#">zeetrack</a></th>
+                    <th><i class="fa fa-pencil" aria-hidden="true"></i>
+                        
+                        <i class="fa-sharp fa-solid fa-eraser" style="color: #060709;"></i>
+                        <i class="fa fa-trash" aria-hidden="true"></i></th>
+                    
+                  </tr>
+                  <tr class="tbody" style="margin-top: 10px; font-size: 10px;">
+                    <th>1</th>
+                    <th><input type="checkbox"/></th>
+                    <th>ID-1265-LEH-9789</th>
+                    <th>350424064680141</th>
+                    <th><i class="fa-solid fa-check" style="color: #59ab07;"></i></th>
+                    <th>2023-12-16</th>
+                    <th></th>
+                    <th>+923331167323</th>
+                    <th>0000-00-00 00:00:00</th>
+                    <th>teltonikam</th>
+                    <th>TCP</th>
+                    <th>11919</th>
+                    <th>status</th>
+                    <th><a href="#">zeetrack</a></th>
+                    <th><i class="fa fa-pencil" aria-hidden="true"></i>
+                        
+                        <i class="fa-sharp fa-solid fa-eraser" style="color: #060709;"></i>
+                        <i class="fa fa-trash" aria-hidden="true"></i></th>
+                    
+                  </tr>
+                  <tr class="tbody" style="margin-top: 10px; font-size: 10px;">
+                    <th>1</th>
+                    <th><input type="checkbox"/></th>
+                    <th>ID-1265-LEH-9789</th>
+                    <th>350424064680141</th>
+                    <th><i class="fa-solid fa-check" style="color: #59ab07;"></i></th>
+                    <th>2023-12-16</th>
+                    <th></th>
+                    <th>+923331167323</th>
+                    <th>0000-00-00 00:00:00</th>
+                    <th>teltonikam</th>
+                    <th>TCP</th>
+                    <th>11919</th>
+                    <th>status</th>
+                    <th><a href="#">zeetrack</a></th>
+                    <th><i class="fa fa-pencil" aria-hidden="true"></i>
+                        
+                        <i class="fa-sharp fa-solid fa-eraser" style="color: #060709;"></i>
+                        <i class="fa fa-trash" aria-hidden="true"></i></th>
+                    
+                  </tr>
+                  <tr class="tbody" style="margin-top: 10px; font-size: 10px;">
+                    <th>2</th>
+                    <th><input type="checkbox"/></th>
+                    <th>ID-1265-LEH-9789</th>
+                    <th>350424064680141</th>
+                    <th><i class="fa-solid fa-check" style="color: #59ab07;"></i></th>
+                    <th>2023-12-16</th>
+                    <th></th>
+                    <th>+923331167323</th>
+                    <th>0000-00-00 00:00:00</th>
+                    <th>teltonikam</th>
+                    <th>TCP</th>
+                    <th>11919</th>
+                    <th>status</th>
+                    <th><a href="#">zeetrack</a></th>
+                    <th><i class="fa fa-pencil" aria-hidden="true"></i>
+                        
+                        <i class="fa-sharp fa-solid fa-eraser" style="color: #060709;"></i>
+                        <i class="fa fa-trash" aria-hidden="true"></i></th>
+                    
+                  </tr>
+                  <tr class="tbody" style="margin-top: 10px; font-size: 10px;">
+                    <th>3</th>
+                    <th><input type="checkbox"/></th>
+                    <th>ID-1265-LEH-9789</th>
+                    <th>350424064680141</th>
+                    <th><i class="fa-solid fa-check" style="color: #59ab07;"></i></th>
+                    <th>2023-12-16</th>
+                    <th></th>
+                    <th>+923331167323</th>
+                    <th>0000-00-00 00:00:00</th>
+                    <th>teltonikam</th>
+                    <th>TCP</th>
+                    <th>11919</th>
+                    <th>status</th>
+                    <th><a href="#">zeetrack</a></th>
+                    <th><i class="fa fa-pencil" aria-hidden="true"></i>
+                        
+                        <i class="fa-sharp fa-solid fa-eraser" style="color: #060709;"></i>
+                        <i class="fa fa-trash" aria-hidden="true"></i></th>
+                    
+                  </tr>
+                  <tr class="tbody" style="margin-top: 10px; font-size: 10px;">
+                    <th>4</th>
+                    <th><input type="checkbox"/></th>
+                    <th>ID-1265-LEH-9789</th>
+                    <th>350424064680141</th>
+                    <th><i class="fa-solid fa-check" style="color: #59ab07;"></i></th>
+                    <th>2023-12-16</th>
+                    <th></th>
+                    <th>+923331167323</th>
+                    <th>0000-00-00 00:00:00</th>
+                    <th>teltonikam</th>
+                    <th>TCP</th>
+                    <th>11919</th>
+                    <th>status</th>
+                    <th><a href="#">zeetrack</a></th>
+                    <th><i class="fa fa-pencil" aria-hidden="true"></i>
+                        
+                        <i class="fa-sharp fa-solid fa-eraser" style="color: #060709;"></i>
+                        <i class="fa fa-trash" aria-hidden="true"></i></th>
+                    
+                  </tr>
+                  <tr class="tbody" style="margin-top: 10px; font-size: 10px;">
+                    <th>5</th>
+                    <th><input type="checkbox"/></th>
+                    <th>ID-1265-LEH-9789</th>
+                    <th>350424064680141</th>
+                    <th><i class="fa-solid fa-check" style="color: #59ab07;"></i></th>
+                    <th>2023-12-16</th>
+                    <th></th>
+                    <th>+923331167323</th>
+                    <th>0000-00-00 00:00:00</th>
+                    <th>teltonikam</th>
+                    <th>TCP</th>
+                    <th>11919</th>
+                    <th>status</th>
+                    <th><a href="#">zeetrack</a></th>
+                    <th><i class="fa fa-pencil" aria-hidden="true"></i>
+                        
+                        <i class="fa-sharp fa-solid fa-eraser" style="color: #060709;"></i>
+                        <i class="fa fa-trash" aria-hidden="true"></i></th>
+                    
+                  </tr>
+                  <tr class="tbody" style="margin-top: 10px; font-size: 10px;">
+                    <th>6</th>
+                    <th><input type="checkbox"/></th>
+                    <th>ID-1265-LEH-9789</th>
+                    <th>350424064680141</th>
+                    <th><i class="fa-solid fa-check" style="color: #59ab07;"></i></th>
+                    <th>2023-12-16</th>
+                    <th></th>
+                    <th>+923331167323</th>
+                    <th>0000-00-00 00:00:00</th>
+                    <th>teltonikam</th>
+                    <th>TCP</th>
+                    <th>11919</th>
+                    <th>status</th>
+                    <th><a href="#">zeetrack</a></th>
+                    <th><i class="fa fa-pencil" aria-hidden="true"></i>
+                        
+                        <i class="fa-sharp fa-solid fa-eraser" style="color: #060709;"></i>
+                        <i class="fa fa-trash" aria-hidden="true"></i></th>
+                    
+                  </tr>
+             
+            </tbody>
+          </table>
+          </div>
+        
+          <nav aria-label="Page navigation example" >
+            <ul class="pagination  " style="margin-top: 400px; ">
+              <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1">Previous</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+              </li>
+            </ul>
+          </nav>
+
+         
+           
+          
+          
+        </div>
+      </div>
+    </div>
+    
+    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./assets/jquery/jquery.js"></script>
+    <script src="./assets/datatable/js/datatables.min.js"></script>
+    
+   
+</html>
